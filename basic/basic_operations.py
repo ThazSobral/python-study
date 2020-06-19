@@ -21,3 +21,9 @@ r = n1 % n2
 # print('A exponênciação de {} por {} é {}'.format(n1, 2, e))
 # print('O divisão inteira de {} por {} é {}'.format(n1, n2, di))
 # print('O resto da divisão de {} por {} é {}'.format(n1, n2, r))
+
+# IMPORTANTE - Ordem de precendência
+# 1º ()
+# 2º **
+# 3º *, /, //, %
+# 4º +, -
