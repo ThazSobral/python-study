@@ -8,6 +8,7 @@ sub = n1 - n2
 m = n1 * n2
 d = n1 / n2
 e = n1 ** n2
+di = n1 // n2
 r = n1 % n2
 
 # Utiliza-se ',' para separar tipos de representação de strings e valores (variáveis)
@@ -18,4 +19,5 @@ r = n1 % n2
 # print('A multiplicação de {} e {} é {}'.format(n1, n2, m))
 # print('A divisão de {} por {} é {}'.format(n1, n2, d))
 # print('A exponênciação de {} por {} é {}'.format(n1, 2, e))
-# print('O resto de {} por {} é {}'.format(n1, n2, r))
+# print('O divisão inteira de {} por {} é {}'.format(n1, n2, di))
+# print('O resto da divisão de {} por {} é {}'.format(n1, n2, r))
