@@ -34,7 +34,7 @@ for word in words:
     word_count[word] = 1
 
 # é realizada uma ordenação no dicionário utilizando o valor como critério
-# e já é aplicada a ordenada reversa (do maior para o menor)
+# já aplicadando a ordenação reversa (do maior para o menor) no dicionário
 keys_values = sorted(word_count.items(), key=counter, reverse=True)
 
 # percorre as primeiras 20 chaves dentro do dicionário e exibe eles na tela
