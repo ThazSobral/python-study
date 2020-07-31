@@ -16,7 +16,7 @@ class Account:
       return False
     else:
       self.balance -= value
-      self.operations.append(['withdraw_money', vale])
+      self.operations.append(['withdraw_money', value])
 
   def deposit(self, value):
     self.balance += value
@@ -32,4 +32,5 @@ class Account:
       if self.balance + self.limit >= value:
         self.balance -= value
         self.operations.append(['withdraw_money', value])
-        
+
+# É possível fazer também o uso de herança multípla, basta apenas passar de herança mais de uma classe
