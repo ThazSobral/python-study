@@ -12,4 +12,4 @@ response = urllib.request.urlopen(url).read()
 # lemos a resposta carregando uma estrutura em json com decodificação UTF-8
 data = json.loads(response.decode('utf8'))
 
-print(data['values']['joke'])
+print(f'Joke --> {data["value"]["joke"]}')
