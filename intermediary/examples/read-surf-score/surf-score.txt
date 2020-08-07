@@ -1,0 +1,9 @@
+Alan: 2.5
+Marcos: 7
+Alex: 10
+Mario: 5.9
+Fernanda: 4.6
+Rafaela: 6.8
+Marcio: 4.8
+Maria: 10
+Juliano: 5
