@@ -14,6 +14,10 @@ virtualenv <nome_da_virtualenv>
 
 Ativar a virtualenv:
 
-. <virualenv>\Scripts\activate
+. .\<virualenv>\Scripts\activate
 
 * pronto agora podemos instalar as dependecias
+
+Para sair da virtualenv:
+
+deactivate
